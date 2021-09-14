@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.area{
+    background-image: url("image/Vector-Smart-Object.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 51%;
+    height: 536px;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.area h1{
+    color: #5d5858;
+    padding: 20px;
+    text-align: center;
+}
+.form form{
+    padding-left: 20%;
+}
+.form-result {
+    margin-top: 160px;
+}
+.form-result table{
+    border: 2px solid;
+    width: 40%;
+    height: 40px;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: -28px;
+    border-radius: 5px;
+    background: white;
+}
+.form-result h4{
+    margin-left: 10px;
+    width: 24%;
+}
+.result{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+.form button{
+    height: 26px;
+    margin-top: 8px;
+    width: 16%;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 52px;
+}
+.weight{
+    margin-bottom: 15px;
+}
+
+.area .form-input input{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.error{
+    color: #fc0505;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 22%;
+    border-radius: 3px;
+}
